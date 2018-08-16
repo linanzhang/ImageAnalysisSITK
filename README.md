@@ -72,8 +72,8 @@ To analyze sperm motility, people usually measure the following quantities:
 
 
 ## Requirements
-(1) Install ITK-SNAP, or other softwares that support images in mha format.
-(2) Download the folders Code and Movie into one folder from SVN.
+- Install ITK-SNAP, or other softwares that support images in mha format.
+- Download the folders Code and Movie into one folder from SVN.
 	- Code contains all the Python files needed for the program.
 	- Movie contains some movies for the examples.
 	
