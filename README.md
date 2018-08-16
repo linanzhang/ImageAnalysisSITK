@@ -1,4 +1,4 @@
-# ImageAnalysisSITK
+# Modeling Bull Sperm Motility Using Methods in Image Analysis
 Course Project for CMU 16-725 (Spring 2017)
 
 
@@ -82,24 +82,24 @@ To analyze sperm motility, people usually measure the following quantities:
 	
 
 # EXAMPLES
-(1) To see how the filters and parameters were chosen, and line-by-line explanations of the program, please read the pdf files in the folder Documentation.
-(2) Create a new folder with name Output.
-(3) To perform
+- To see how the filters and parameters were chosen, and line-by-line explanations of the program, please read the pdf files in the folder Documentation.
+- Create a new folder with name Output.
+- To perform:
 		Pre-processing -> Blurring -> Thresholding -> Analysis -> Summary,
 run the following command
 		python SpermSegReg.py -i ../Movie/movie20.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 1
 Please expect about 10 minutes for the program to complete.
-(4) To perform
+- To perform
 		Blurring -> Thresholding -> Analysis -> Summary,
 run the following command
 		python SpermSegReg.py -i ../Movie/SpermStep1_CorrectingIllumination.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 2
 Please expect about 5 minutes for the program to complete.
-(5) To perform
+- To perform
 		Thresholding -> Analysis -> Summary,
 run the following command
 		python SpermSegReg.py -i ../Movie/SpermStep2_Blurring.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 3
 Please expect about 5 minutes for the program to complete.
-(6) To perform
+- To perform
 		Analysis -> Summary,
 run the following command
 		python SpermSegReg.py -i ../Movie/SpermStep3_Thresholding.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 4
