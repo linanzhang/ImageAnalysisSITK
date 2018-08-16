@@ -30,7 +30,18 @@ To analyze sperm motility, people usually measure the following quantities:
 
 	Calculating above quantities requires that we obtain a segmentation of the sperm head and flagellum, which accurately represent the location of the sperm. This project focuses on how to segment the sperm from laboratory data (Steps 1-3). It also includes an simple algorithm to separate the sperm head and flagellum from the segmentation result (Step 4).
 	
-
+- Step 1: movie from the laboratory
+	- Pre-prossessing: correcting nonuniform illumination
+- Step 2: movie with uniform illumination
+	- Smoothing
+- Step 3: movie after blurring
+	- Segmentation
+- Step 4: movie with segmented result
+	- determining good frames
+	- splitting head and flagellum
+- Step 5: movie with segmented result of the good frames only and dictionary that contains some basic information about the sperm in each frame, i.e. head pixels, flagellum pixels
+	- plotting head and flagellum separately
+	- plotting head trajectory
 
 
 # CHECKLIST
