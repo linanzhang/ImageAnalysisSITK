@@ -6,7 +6,7 @@ Author: 	Linan Zhang
 Date:		  April 2017
 
 
-# Table of Contents
+## Table of Contents
  * Introduction
  * Checklist
  * Requirements
@@ -15,7 +15,7 @@ Date:		  April 2017
  * References
 
 
-# Introduction
+## Introduction
 
 Based on the information released by Centers for Disease Control and Prevention, about 15% of couples in US have infertility problems. This situation leads to researches including the study of sperm motility. Sperm motility is of great interest to biologists studying sperm function and to medical engineers evaluating and treating male infertility. Animal sperm are also studied by agriculturalists engaged in industrial animal husbandry.
 
