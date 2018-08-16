@@ -94,18 +94,29 @@ run the following command
 		
 Please expect about 10 minutes for the program to complete.
 - To perform
+
 		Blurring -> Thresholding -> Analysis -> Summary,
+		
 run the following command
+
 		python SpermSegReg.py -i ../Movie/SpermStep1_CorrectingIllumination.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 2
+		
 Please expect about 5 minutes for the program to complete.
 - To perform
+		
 		Thresholding -> Analysis -> Summary,
+		
 run the following command
+		
 		python SpermSegReg.py -i ../Movie/SpermStep2_Blurring.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 3
+		
 Please expect about 5 minutes for the program to complete.
 - To perform
+		
 		Analysis -> Summary,
+		
 run the following command
+		
 		python SpermSegReg.py -i ../Movie/SpermStep3_Thresholding.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 4
 
 
