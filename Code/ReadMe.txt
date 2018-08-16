@@ -26,8 +26,11 @@ Language:	Python
 
 	An experiment was designed to study sperm motility. Bull sperm were put in a chamber with a given medium. The movement of bull sperm was then recorded into a movie by taking high speed images from a microscope. The goal was to develop male contraceptives by studying how chemicals change bending and swimming of sperm.
 
-	To analyze sperm motility, people usually measure the following quantities:- swimming velocity;- head centerline deviation, which measures how far the sperm is from being swimming straight; 
-- flagellum curvature, which measures the degree of bending of the flagellum;- bending and sliding energies, which are stored in the sperm body to support the swimming.
+	To analyze sperm motility, people usually measure the following quantities:
+- swimming velocity;
+- head centerline deviation, which measures how far the sperm is from being swimming straight; 
+- flagellum curvature, which measures the degree of bending of the flagellum;
+- bending and sliding energies, which are stored in the sperm body to support the swimming.
 
 	Calculating above quantities requires that we obtain a segmentation of the sperm head and flagellum, which accurately represent the location of the sperm. This project focuses on how to segment the sperm from laboratory data (Steps 1-3). It also includes an simple algorithm to separate the sperm head and flagellum from the segmentation result (Step 4).
 	
@@ -75,12 +78,12 @@ Language:	Python
 	- Step4Helpers.m
 - Documentation:
 	- ReadMe.txt
-	- Step01_CorrectingIllumination.pdf
-	- Step02_RemovingNoise.pdf
-	- Step03_Thresholding.pdf
-	- Step04_DetectingSpermBody.pdf
-	- Step05_Summary.pdf
-- Movie:
+	- Step01_CorrectingIllumination.ipynb
+	- Step02_RemovingNoise.ipynb
+	- Step03_Thresholding.ipynb
+	- Step04_DetectingSpermBody.ipynb
+	- Step05_Summary.ipynb
+- Movies:
 	- movie20.mha (data)
 	- SpermStep1_CorrectingIllumination.mha
 	- SpermStep2_Blurring.mha
@@ -137,7 +140,8 @@ run the following command
  * Professor Sarah Olson, Worcester Polytechnic Institute
 	- advisor for a similar project in the past, which focused more on modeling 
  * Professor Susan Suarez, Cornell University
-	- provider of the movie which was used in this project * Zhiang Zhang, Carnegie Mellon University
+	- provider of the movie which was used in this project
+ * Zhiang Zhang, Carnegie Mellon University
 	- peer mentor who helped me polish the code
 
 
