@@ -17,11 +17,12 @@ Date:		  April 2017
 
 
 # INTRODUCTION
-	Based on the information released by Centers for Disease Control and Prevention, about 15% of couples in US have infertility problems. This situation leads to researches including the study of sperm motility. Sperm motility is of great interest to biologists studying sperm function and to medical engineers evaluating and treating male infertility. Animal sperm are also studied by agriculturalists engaged in industrial animal husbandry. 
 
-	An experiment was designed to study sperm motility. Bull sperm were put in a chamber with a given medium. The movement of bull sperm was then recorded into a movie by taking high speed images from a microscope. The goal was to develop male contraceptives by studying how chemicals change bending and swimming of sperm.
+Based on the information released by Centers for Disease Control and Prevention, about 15% of couples in US have infertility problems. This situation leads to researches including the study of sperm motility. Sperm motility is of great interest to biologists studying sperm function and to medical engineers evaluating and treating male infertility. Animal sperm are also studied by agriculturalists engaged in industrial animal husbandry.
 
-	To analyze sperm motility, people usually measure the following quantities:
+An experiment was designed to study sperm motility. Bull sperm were put in a chamber with a given medium. The movement of bull sperm was then recorded into a movie by taking high speed images from a microscope. The goal was to develop male contraceptives by studying how chemicals change bending and swimming of sperm.
+
+To analyze sperm motility, people usually measure the following quantities:
 - swimming velocity;
 - head centerline deviation, which measures how far the sperm is from being swimming straight; 
 - flagellum curvature, which measures the degree of bending of the flagellum;
