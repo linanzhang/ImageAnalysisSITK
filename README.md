@@ -85,9 +85,13 @@ To analyze sperm motility, people usually measure the following quantities:
 - To see how the filters and parameters were chosen, and line-by-line explanations of the program, please read the pdf files in the folder Documentation.
 - Create a new folder with name Output.
 - To perform:
+
 		Pre-processing -> Blurring -> Thresholding -> Analysis -> Summary,
+		
 run the following command
+
 		python SpermSegReg.py -i ../Movie/movie20.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 1
+		
 Please expect about 10 minutes for the program to complete.
 - To perform
 		Blurring -> Thresholding -> Analysis -> Summary,
