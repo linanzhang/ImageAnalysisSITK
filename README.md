@@ -6,7 +6,7 @@ Author: 	Linan Zhang
 Date:		  April 2017
 
 
-# CONTENTS OF THIS FILE
+# Table of Contents
  * Introduction
  * Checklist
  * Requirements
@@ -15,7 +15,7 @@ Date:		  April 2017
  * References
 
 
-# INTRODUCTION
+# Introduction
 
 Based on the information released by Centers for Disease Control and Prevention, about 15% of couples in US have infertility problems. This situation leads to researches including the study of sperm motility. Sperm motility is of great interest to biologists studying sperm function and to medical engineers evaluating and treating male infertility. Animal sperm are also studied by agriculturalists engaged in industrial animal husbandry.
 
@@ -43,7 +43,7 @@ To analyze sperm motility, people usually measure the following quantities:
 	- plotting head trajectory
 
 
-# CHECKLIST
+# Checklist
 - Code:
 	- ReadMe.txt (this file)
 	- SpermSegReg.m (main)
@@ -71,14 +71,14 @@ To analyze sperm motility, people usually measure the following quantities:
 	- SpermInfo.mat
 
 
-# REQUIREMENTS
+# Requirements
 (1) Install ITK-SNAP, or other softwares that support images in mha format.
 (2) Download the folders Code and Movie into one folder from SVN.
 	- Code contains all the Python files needed for the program.
 	- Movie contains some movies for the examples.
 	
 
-# EXAMPLES
+# Examples
 - To see how the filters and parameters were chosen, and line-by-line explanations of the program, please read the pdf files in the folder Documentation.
 - Create a new folder with name Output.
 - To perform:
@@ -117,7 +117,7 @@ run the following command
 		python SpermSegReg.py -i ../Movie/SpermStep3_Thresholding.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 4
 
 
-# ACKNOWLEDGEMENT
+# Acknowledgement
  * Doctor John Galeotti, Carnegie Mellon University
 	- advisor for this project
  * Professor Sarah Olson, Worcester Polytechnic Institute
