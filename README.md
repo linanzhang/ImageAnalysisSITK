@@ -55,12 +55,12 @@ To analyze sperm motility, people usually measure the following quantities:
 	- Step4Helpers.m
 - Documentation:
 	- ReadMe.txt
-	- Step01_CorrectingIllumination.pdf
-	- Step02_RemovingNoise.pdf
-	- Step03_Thresholding.pdf
-	- Step04_DetectingSpermBody.pdf
-	- Step05_Summary.pdf
-- Movie:
+	- Step01_CorrectingIllumination.ipynb
+	- Step02_RemovingNoise.ipynb
+	- Step03_Thresholding.ipynb
+	- Step04_DetectingSpermBody.ipynb
+	- Step05_Summary.ipynb
+- Movies:
 	- movie20.mha (data)
 	- SpermStep1_CorrectingIllumination.mha
 	- SpermStep2_Blurring.mha
