@@ -1,9 +1,6 @@
 # Modeling Bull Sperm Motility Using Methods in Image Analysis
 Course Project for CMU 16-725 (Spring 2017)
 
-
-Title: 		Modeling Bull Sperm Motility Using Methods in Image Analysis
-
 Author: 	Linan Zhang
 
 Date:		  April 2017
