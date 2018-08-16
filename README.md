@@ -43,7 +43,7 @@ To analyze sperm motility, people usually measure the following quantities:
 	- plotting head trajectory
 
 
-# Checklist
+## Checklist
 - Code:
 	- ReadMe.txt (this file)
 	- SpermSegReg.m (main)
@@ -71,14 +71,14 @@ To analyze sperm motility, people usually measure the following quantities:
 	- SpermInfo.mat
 
 
-# Requirements
+## Requirements
 (1) Install ITK-SNAP, or other softwares that support images in mha format.
 (2) Download the folders Code and Movie into one folder from SVN.
 	- Code contains all the Python files needed for the program.
 	- Movie contains some movies for the examples.
 	
 
-# Examples
+## Examples
 - To see how the filters and parameters were chosen, and line-by-line explanations of the program, please read the pdf files in the folder Documentation.
 - Create a new folder with name Output.
 - To perform:
@@ -87,7 +87,7 @@ To analyze sperm motility, people usually measure the following quantities:
 		
 run the following command
 
-		python SpermSegReg.py -i ../Movie/movie20.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 1
+	python SpermSegReg.py -i ../Movie/movie20.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 1
 		
 Please expect about 10 minutes for the program to complete.
 - To perform
@@ -96,7 +96,7 @@ Please expect about 10 minutes for the program to complete.
 		
 run the following command
 
-		python SpermSegReg.py -i ../Movie/SpermStep1_CorrectingIllumination.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 2
+	python SpermSegReg.py -i ../Movie/SpermStep1_CorrectingIllumination.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 2
 		
 Please expect about 5 minutes for the program to complete.
 - To perform
@@ -105,7 +105,7 @@ Please expect about 5 minutes for the program to complete.
 		
 run the following command
 		
-		python SpermSegReg.py -i ../Movie/SpermStep2_Blurring.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 3
+	python SpermSegReg.py -i ../Movie/SpermStep2_Blurring.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 3
 		
 Please expect about 5 minutes for the program to complete.
 - To perform
@@ -114,10 +114,10 @@ Please expect about 5 minutes for the program to complete.
 		
 run the following command
 		
-		python SpermSegReg.py -i ../Movie/SpermStep3_Thresholding.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 4
+	python SpermSegReg.py -i ../Movie/SpermStep3_Thresholding.mha -o ../Movie/ -mf 3 -tr 2 -tv 10 -rs 1 61 221 271 361 411 46 76 166 221 381 421 391 451 391 431 -dt 0.005 -sc 0.1625 -hbr 0.25 -n 4
 
 
-# Acknowledgement
+## Acknowledgement
  * Doctor John Galeotti, Carnegie Mellon University
 	- advisor for this project
  * Professor Sarah Olson, Worcester Polytechnic Institute
